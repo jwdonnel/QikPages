@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>QikPages</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link id="Link1" runat="server" rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link id="Link2" runat="server" rel="icon" href="images/favicon.ico" type="image/ico" />
+    <link rel="stylesheet" type="text/css" href="css/desktop_site.css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="wrapper-height">
+            <div id="headerWrapper">
+                <div id="topheader">
+                    <div class="th-content">
+                        <div class="logo-holder">
+                            <a href="index.html" class="logo" title="Return to Homepage">
+                                <img alt="logo" id="logo1" src="images/Logos/logo.png" />
+                                <img alt="logo" id="logo2" src="images/Logos/logo2.png" />
+                            </a>
+                        </div>
+                        <div class="menu-holder">
+                            <div class="contactUs">
+                                Call now for pricing and information<br />1-800-555-1234
+                            </div>
+                            <div id="mmNavigation" class="headerMenu">
+                                <ul class="nav-main-ul">
+                                    <li class="nav-main-li"><a href="#home" class="nav-main-a">Home</a></li>
+                                    <li class="nav-main-li"><a href="#" class="nav-main-a">Products</a>
+                                        <div id="ProductLinesSubMenu" class="nav-main-li-sub" style="width: 140px; left: -35px; display: none;">
+                                            <ul class="nav-main-li-sub-ul">
+                                                <li class="nav-main-li-sub-li"><a href="#" class="nav-main-li-sub-li-a">Product 1</a></li>
+                                                <li class="nav-main-li-sub-li"><a href="#" class="nav-main-li-sub-li-a">Product 2</a></li>
+                                                <li class="nav-main-li-sub-li"><a href="#" class="nav-main-li-sub-li-a">Product 3</a></li>
+                                                <li class="nav-main-li-sub-li"><a href="#" class="nav-main-li-sub-li-a">Product 4</a></li>
+                                                <li class="nav-main-li-sub-li"><a href="#" class="nav-main-li-sub-li-a">Product 5</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-main-li"><a href="#" class="nav-main-a">Services</a>
+                                        <div class="nav-main-li-sub" style="width: 200px; left: -65px; display: none;">
+                                            <ul class="nav-main-li-sub-ul">
+                                                <li class="nav-main-li-sub-li"><a href="#" class="nav-main-li-sub-li-a">Services & Processing</a></li>
+                                                <li class="nav-main-li-sub-li"><a href="#" class="nav-main-li-sub-li-a">Shipping & Receiving</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-main-li"><a href="#" class="nav-main-a">eRequest</a></li>
+                                    <li class="nav-main-li"><a href="#page2" class="nav-main-a">About Us</a></li>
+                                    <li class="nav-main-li"><a href="#" class="nav-main-a">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="headerContent">
+                    <div class="fade-away-bottom">
+                    </div>
+                    <div id="loading-frame" style="display: block;">
+                        Loading Requested Page. Please Wait.
+                    </div>
+                </div>
+            </div>
+            <div id="contentWrapper">
+                <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+                <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+                <script type="text/javascript" src="//code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+                <script type="text/javascript" src="scripts/jquery.ba-hashchange.min.js"></script>
+                <script type="text/javascript" src="scripts/QikPages.js"></script>
+                <div id="loadContent">
+                </div>
+            </div>
+        </div>
+        <div id="footerWrapper">
+            <div id="footerBG">
+                <div class="mainFooter">
+                    <table width="100%">
+                        <tbody>
+                            <tr>
+                                <td valign="top" align="center">
+                                    <div class="footerBlocks2">
+                                        <div class="footer-table">
+                                            <div class="iso-cert-holder">
+                                                <img alt="pjr" src="images/Icons/light.png" class="float-left pad-right" style="height: 50px" />
+                                                Add More info Here<br />
+                                                <a href="#" target="_blank">Info Link 1</a><br />
+                                                <a href="#"><strong>Info Link 2</strong></a>
+                                            </div>
+                                            <div class="contact-info-footer">
+                                                <table>
+                                                    <tr>
+                                                        <td align="right">
+                                                            <div class="pad-right-big">
+                                                                <p>
+                                                                    1234 West 17th St.
+                                                                </p>
+                                                                <p>
+                                                                    City, State Zip
+                                                                </p>
+                                                                <a href="#" onclick="QikPages.OpenDirectionModal();return false;"><span style="margin-right: 6px">Directions / Map</span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td align="left">
+                                                            <p>
+                                                                <b class="pad-right-sml">Phone:</b>1-800-555-1234
+                                                            </p>
+                                                            <p>
+                                                                <b class="pad-right-sml">Fax:</b>1-800-555-4321
+                                                            </p>
+                                                            <p>
+                                                                <b class="float-left pad-right-sml">Email Us:</b><a href="#" title="Email" target="_blank" class="findus_email"></a>
+                                                            </p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="footerImg">
+                <div class="clear-space"></div>
+            </div>
+            <div id="footervb">
+                <div class="footervbCenter">
+                    Template by <a href="http://www.my4dashboards.com/" target="_blank">John Donnelly</a>
+                    - <span id="footer-pagetitle"></span>- 2014
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Directions-element" class="Modal-element">
+        <div class="Modal-overlay">
+            <div class="Modal-element-align">
+                <div class="Modal-element-modal">
+                    <div class="ModalHeader">
+                        <div>
+                            <div class="widget-head-button-holder-admin">
+                                <a href="#" onclick="QikPages.CloseDirectionModal();return false;"
+                                    class="ModalExitButton" title="Close Directions"></a>
+                            </div>
+                            <span class="Modal-title"></span>
+                        </div>
+                    </div>
+                    <div class="ModalPadContent">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

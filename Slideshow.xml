@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+    <item>
+        <Title>Give your Business a professional look</Title>
+        <SlideshowImg>images/homepage/1.png</SlideshowImg>
+        <LearnMoreText>Learn More About Us</LearnMoreText>
+        <DetailsUrl>page2</DetailsUrl>
+    </item>
+    <item>
+        <Title>Increase your profits by giving users easier tools</Title>
+        <SlideshowImg>images/homepage/2.png</SlideshowImg>
+        <LearnMoreText>Learn More About Us</LearnMoreText>
+        <DetailsUrl>page2</DetailsUrl>
+    </item>
+</Items>
